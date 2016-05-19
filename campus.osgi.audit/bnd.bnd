@@ -1,0 +1,6 @@
+-buildpath: \
+	osgi.core,\
+	slf4j.api
+Private-Package: campus.osgi.audit
+Bundle-Activator: campus.osgi.audit.LoggingBundleListener
+Bundle-Version: 1.0.0.${tstamp}

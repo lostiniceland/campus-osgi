@@ -1,0 +1,13 @@
+-buildpath: \
+	campus.osgi.users.api;version=latest,\
+	osgi.core,\
+	campus.osgi.fx.app;version=latest,\
+	campus.osgi.users.fixed.provider;version=latest,\
+	campus.osgi.users.random-me.provider;version=latest,\
+	com.eclipsesource.jaxrs.consumer,\
+	com.eclipsesource.jaxrs.jersey-all,\
+	com.eclipsesource.jaxrs.publisher,\
+	campus.osgi.fx.tabs;version=latest,\
+	campus.osgi.fx.tabs.users;version=latest
+Bundle-Activator: campus.osgi.client.Activator
+Bundle-Version: 1.0.0.${tstamp}

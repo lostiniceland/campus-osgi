@@ -1,0 +1,25 @@
+-runsystemcapabilities: ${native_capability}
+
+-resolve.effective: active;skip:="osgi.service"
+
+# execution-environment
+-runee: JavaSE-1.8
+
+# enable JavaFX-packages from JDK
+-runsystempackages.bugfix: javafx.application,\
+	javafx.beans.property,\
+	javafx.beans.value,\
+	javafx.collections,\
+	javafx.fxml,\
+	javafx.geometry,\
+	javafx.scene,\
+	javafx.scene.control,\
+	javafx.scene.control.cell,\
+	javafx.scene.layout,\
+	javafx.scene.paint,\
+	javafx.scene.text,\
+	javafx.stage,\
+	javafx.event,\
+	javafx.util,\
+	javafx.scene.shape,\
+	com.sun.javafx.application

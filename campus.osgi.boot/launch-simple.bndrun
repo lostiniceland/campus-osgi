@@ -1,0 +1,26 @@
+
+
+
+-runrequires: \
+	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.shell)',\
+	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.command)',\
+	osgi.identity;filter:='(osgi.identity=org.apache.felix.scr)',\
+	osgi.identity;filter:='(&(osgi.identity=campus.osgi.fx.app)(version>=1.0.0)(!(version>=2.0)))',\
+	osgi.identity;filter:='(&(osgi.identity=campus.osgi.fx.tabs)(version>=1.0.0)(!(version>=2.0)))',\
+	osgi.identity;filter:='(osgi.identity=org.ops4j.pax.logging.pax-logging-service)'
+
+-runfw: org.apache.felix.framework;version='[5.4.0,5.4.0]'
+
+-runbundles: \
+	org.ops4j.pax.logging.pax-logging-api;version='[1.8.5,1.8.6)',\
+	org.ops4j.pax.logging.pax-logging-service;version='[1.8.5,1.8.6)',\
+	campus.osgi.fx.app;version=snapshot,\
+	campus.osgi.fx.tabs;version=snapshot,\
+	org.apache.felix.configadmin;version='[1.8.8,1.8.9)',\
+	org.apache.felix.gogo.command;version='[0.16.0,0.16.1)',\
+	org.apache.felix.gogo.runtime;version='[0.16.2,0.16.3)',\
+	org.apache.felix.gogo.shell;version='[0.12.0,0.12.1)',\
+	org.apache.felix.scr;version='[2.0.2,2.0.3)'
+	
+
+-runvm: -Dorg.ops4j.pax.logging.DefaultServiceLog.level=INFO
