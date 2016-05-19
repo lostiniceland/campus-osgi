@@ -1,8 +1,0 @@
--buildpath: \
-	campus.osgi.users.api;version=latest,\
-	osgi.cmpn,\
-	osgi.annotation,\
-	org.apache.felix.gogo.runtime
-Private-Package: campus.osgi.users.fixed.provider
-Export-Package: campus.osgi.users.api
-Bundle-Version: 1.0.0.${tstamp}

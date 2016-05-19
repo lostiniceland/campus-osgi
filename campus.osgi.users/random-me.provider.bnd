@@ -1,0 +1,3 @@
+-dsannotations: *
+Private-Package: campus.osgi.users.random.me.provider
+Export-Package: campus.osgi.users.api

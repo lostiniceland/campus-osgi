@@ -1,0 +1,10 @@
+-sub: *.bnd
+-buildpath: \
+	osgi.annotation,\
+	osgi.cmpn,\
+	osgi.core,\
+	com.eclipsesource.jaxrs.consumer,\
+	com.eclipsesource.jaxrs.jersey-all,\
+	com.eclipsesource.jaxrs.publisher,\
+	org.apache.felix.gogo.runtime,\
+	com.springsource.org.json
