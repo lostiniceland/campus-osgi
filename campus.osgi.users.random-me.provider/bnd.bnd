@@ -12,3 +12,5 @@ Private-Package: campus.osgi.users.random.me.provider
 
 -dsannotations: *
 Export-Package: campus.osgi.users.api
+
+-includeresource: docu=docu

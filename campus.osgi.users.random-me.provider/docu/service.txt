@@ -1,0 +1,2 @@
+<p>Service uses http://randomuser.me to generate random User entries.</p>
+<p>Configuration is provided via ConfigAdmin</p>

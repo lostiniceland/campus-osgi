@@ -1,0 +1,9 @@
+-buildpath: \
+	osgi.cmpn,\
+	osgi.core,\
+	osgi.annotation,\
+	slf4j.api,\
+	org.apache.felix.http.servlet-api
+Private-Package: campus.osgi.docu
+Bundle-Activator: campus.osgi.docu.DocumentationExtender
+-dsannotations: *
