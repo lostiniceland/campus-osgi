@@ -1,3 +1,25 @@
 .gradle/
 .metadata
 
+# Bnd
+generated/
+bin/
+bin_test/
+cnf/cache/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
