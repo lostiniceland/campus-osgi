@@ -1,7 +1,0 @@
-Bundle-Version: 1.0.0.${tstamp}
-Export-Package: campus.osgi.fx.ui
-Private-Package: \
-	campus.osgi.fx.launch.internal,\
-	campus.osgi.fx.ui.internal,\
-	campus.osgi.fx.stage.internal
--includeresource: resources

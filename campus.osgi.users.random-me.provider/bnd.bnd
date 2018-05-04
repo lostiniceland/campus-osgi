@@ -1,10 +1,10 @@
 -buildpath: \
-	com.eclipsesource.jaxrs.jersey-all,\
 	com.eclipsesource.jaxrs.consumer,\
-	com.springsource.org.json,\
 	osgi.cmpn,\
 	campus.osgi.users.api;version=latest,\
-	osgi.core
+	osgi.core,\
+	json,\
+	com.eclipsesource.jaxrs.jersey-all
 
 
 Bundle-Version: 1.0.0.${tstamp}

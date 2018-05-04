@@ -46,3 +46,4 @@
 
 -runvm: -Dorg.ops4j.pax.logging.DefaultServiceLog.level=INFO\n\
  -Dopen-config=true
+-runee: JavaSE-1.8

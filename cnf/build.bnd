@@ -1,13 +1,10 @@
 # Configure Repositories
--plugin.1.Central: \
-	aQute.bnd.deployer.repository.wrapper.Plugin; \
-		location = "${build}/cache/wrapper"; \
-		reindex = true, \
-	aQute.bnd.jpm.Repository; \
-		includeStaged = true; \
-		name = Central; \
-		location = ~/.bnd/shacache; \
-		index = ${build}/central.json
+-plugin.central = \
+	aQute.bnd.repository.maven.pom.provider.BndPomRepository; \
+        name = "Central (non transitive)"; \
+        pom = "${build}/central.xml"; \
+		releaseUrls = 'https://repo.maven.apache.org/maven2/'; \
+		transitive = false
 
 -plugin.2.Local: \
 	aQute.bnd.deployer.repository.LocalIndexedRepo; \
@@ -33,5 +30,6 @@
 # JUnit
 junit: org.apache.servicemix.bundles.junit; version=4.12
 
-javac.source:          1.8
-javac.target:          1.8
+javac.source:          10
+javac.target:          10
+
