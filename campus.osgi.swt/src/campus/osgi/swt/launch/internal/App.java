@@ -25,6 +25,7 @@ public class App {
 	@Deactivate
 	public void stopBundle() {
 		thread.interrupt();
+		Display.findDisplay(thread).asyncExec(() -> Display.getDefault().beep());
 		thread = null;
 	}
 
