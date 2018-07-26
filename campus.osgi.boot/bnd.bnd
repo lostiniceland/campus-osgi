@@ -4,8 +4,10 @@
 	campus.osgi.users.random-me.provider;version=latest,\
 	osgi.core,\
 	com.eclipsesource.jaxrs.consumer,\
-	com.eclipsesource.jaxrs.jersey-all,\
 	com.eclipsesource.jaxrs.publisher,\
-	campus.osgi.swt;version=latest
+	campus.osgi.swt;version=latest,\
+	com.eclipsesource.jaxrs.jersey-all
 Bundle-Activator: campus.osgi.client.Activator
 Bundle-Version: 1.0.0.${tstamp}
+-runfw: org.apache.felix.framework;version='[6.0.0,6.0.0]'
+-runee: JavaSE-10

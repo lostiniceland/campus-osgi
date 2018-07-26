@@ -47,10 +47,12 @@ public class App {
 					display.sleep(); 
 				}
 			}
-			shell.close();
-			display.close();
-			shell.dispose();
-			display.dispose();
+			if(!shell.isDisposed()) {
+				shell.close();
+			}
+			if(!display.isDisposed()) {
+				display.close();
+			}
 		}
 	}
 }

@@ -9,11 +9,12 @@
 	<packaging>pom</packaging>
 
 	<properties>
-		<version.felix>5.6.10</version.felix>
-		<version.felix-configadmin>1.9.0</version.felix-configadmin>
-		<version.felix-eventadmin>1.4.10</version.felix-eventadmin>
-		<version.felix-fileinstall>3.5.8</version.felix-fileinstall>
-		<version.felix-metatype>1.1.6</version.felix-metatype>
+		<!-- <version.felix>5.6.10</version.felix> -->
+		<version.felix>6.0.0</version.felix>
+		<version.felix-configadmin>1.9.2</version.felix-configadmin>
+		<version.felix-eventadmin>1.5.0</version.felix-eventadmin>
+		<version.felix-fileinstall>3.6.4</version.felix-fileinstall>
+		<version.felix-metatype>1.2.0</version.felix-metatype>
 		<version.felix-scr>2.1.0</version.felix-scr>
 		<version.felix-webconsole>4.3.4</version.felix-webconsole>
 		<version.felix-webconsole-plugins-ds>2.0.8</version.felix-webconsole-plugins-ds>
@@ -56,11 +57,6 @@
 			<version>${version.felix-scr}</version>
 		</dependency>
 		<!-- JFace -->
-		<dependency>
-			<groupId>org.eclipse.platform</groupId>
-			<artifactId>org.eclipse.swt</artifactId>
-			<version>${version.eclipse.swt}</version>
-		</dependency>
 		<dependency>
 			<groupId>org.eclipse.platform</groupId>
 			<artifactId>org.eclipse.swt.gtk.linux.x86_64</artifactId>

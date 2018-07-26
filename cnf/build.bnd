@@ -3,7 +3,8 @@
 	aQute.bnd.repository.maven.pom.provider.BndPomRepository; \
         name = "Central (non transitive)"; \
         pom = "${build}/central.xml"; \
-		releaseUrls = 'https://repo.maven.apache.org/maven2/'; \
+		releaseUrls = 'https://nexus.sdvrz.de/nexus/content/groups/repo/'; \
+		snapshotsUrls = 'https://nexus.sdvrz.de/nexus/content/groups/repo/'; \
 		transitive = false
 
 -plugin.2.Local: \

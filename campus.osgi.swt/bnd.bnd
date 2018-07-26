@@ -5,7 +5,7 @@
 	osgi.cmpn;version=6.0,\
 	osgi.annotation;version=6.0,\
 	org.eclipse.jface,\
-	org.eclipse.swt.gtk.linux.x86_64
+	org.eclipse.swt.win32.win32.x86_64
 Export-Package: campus.osgi.swt.ui
 Private-Package: \
 	campus.osgi.swt.launch.internal,\
